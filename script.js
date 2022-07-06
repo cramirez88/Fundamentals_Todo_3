@@ -67,3 +67,22 @@
 // }
 
 // console.log(double([1,2,100]))
+
+
+// Count Positives
+// Given an array of numbers, create a function to replace last value with the number of positive values. Example,  countPositives([-1,1,1,1]) changes array to [-1,1,1,3] and returns it.
+
+// function countPositives(arr){
+//   let pos = 0
+//   for (let i = 0; i < arr.length; i++){
+//     if(arr[i] > 0){
+//       pos++
+//     }
+//     if(arr[i] === arr[arr.length - 1]){
+//       arr[i] = pos
+//     }
+//   }
+//   return arr
+// }
+
+// console.log(countPositives([1,2,3,-1,2,-44,-5]))
