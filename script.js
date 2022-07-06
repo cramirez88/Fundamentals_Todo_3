@@ -33,3 +33,23 @@
 // }
 
 // console.log(printLowReturnHigh([1,2,3,2,5,3,-1,-50]))
+
+// Print One, Return Another
+// Build a function that takes an array of numbers. The function should print the second-to-last value in the array, and return first odd value in the array.
+
+// function printOneReturnAnother(arr){
+//   for (let i = 0; i < arr.length; i++){
+//     if(arr[i] === arr[arr.length -2]){
+//       arr[i] = arr[arr.length - 2]
+//       console.log(arr[i])
+//     }
+//     if(arr[i] % 2 !== 0){
+//       return arr[i]
+//     }
+    
+//   }
+
+// }
+
+
+// console.log(printOneReturnAnother([2,2,3,4,5,-1,-3,-5]))
