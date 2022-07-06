@@ -115,3 +115,17 @@
 
 // console.log(evenOdds([1,2,3,4,5,7,1,11]))
 
+
+// Increment the Seconds
+// Given arr, add 1 to odd elements ([1], [3], etc.), console.log all values and return arr.
+
+// function increment(arr){
+//   for(let i = 0; i < arr.length; i++)
+//   if (arr[i] % 2 !== 0){
+//     arr[i] = arr[i] + 1
+//   }
+//   return arr
+// }
+// console.log(increment([1,3,5, 2]))
+
+
