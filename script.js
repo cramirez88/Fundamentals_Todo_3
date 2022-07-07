@@ -223,5 +223,21 @@
 // console.log(swap([1,'hi', 'bacon', 'coding', 'dojo']))
 
 
+// Scale the Array
+// Given array arr and number num, multiply each arr value by num, and return the changed arr.
+
+// function arrAndNum(arr, num){
+
+//   let changedArr = []
+//   for (let i = 0; i < arr.length; i++){
+//     changedArr.push(arr[i] * num)
+//   }
+
+//   return changedArr
+// }
+
+// console.log(arrAndNum([1,2,4,2,5], 4))
+
+
 
 
