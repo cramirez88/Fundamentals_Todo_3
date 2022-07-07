@@ -143,5 +143,21 @@
 // console.log(previousLength(['Hi', 'Bob', 'Tree', 'Charlie']))
 
 
+// Add Seven to Most
+// Build a function that accepts an array. Return a new array with all values except first, adding 7 to each. Do not alter the original array.
+
+function addSeven(arr){
+  let first = arr[0]
+  let newArr = [first]
+  for (let i = 1; i < arr.length; i++){
+
+    newArr.push(arr[i] + 7)
+  }
+  return newArr
+}
+
+console.log(addSeven([1,2,3,4,5]))
+
+
 
 
