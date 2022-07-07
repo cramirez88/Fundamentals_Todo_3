@@ -191,6 +191,23 @@
 
 // console.log(negative([-1,-2,4,5,-6]))
 
+// Always Hungry
+// Create a function that accepts an array, and prints "yummy" each time one of the values is equal to "food". If no array elements are "food", then print "I'm hungry" once.
+
+// function alwaysHungry(arr){
+//   for (let i = 0; i < arr.length; i++){
+//     if(arr[i] === 'food'){
+//       console.log('Yummy')
+//     }
+//     if(arr[i] !== 'food'){
+//       console.log('Hungry')
+//       return
+//     }
+//   }
+// }
+
+// console.log(alwaysHungry(['food', 'hi', 'la', 'not food']))
+
 
 
 
