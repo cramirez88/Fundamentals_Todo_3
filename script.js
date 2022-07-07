@@ -146,17 +146,32 @@
 // Add Seven to Most
 // Build a function that accepts an array. Return a new array with all values except first, adding 7 to each. Do not alter the original array.
 
-function addSeven(arr){
-  let first = arr[0]
-  let newArr = [first]
-  for (let i = 1; i < arr.length; i++){
+// function addSeven(arr){
+//   let first = arr[0]
+//   let newArr = [first]
+//   for (let i = 1; i < arr.length; i++){
 
-    newArr.push(arr[i] + 7)
-  }
-  return newArr
-}
+//     newArr.push(arr[i] + 7)
+//   }
+//   return newArr
+// }
 
-console.log(addSeven([1,2,3,4,5]))
+// console.log(addSeven([1,2,3,4,5]))
+
+
+// Reverse Array
+// Given array, write a function to reverse values, in-place. Example: reverse([3,1,6,4,2]) returns same array, containing [2,4,6,1,3].
+
+// function reverse(arr){
+//   let newArr = []
+//   for(let i = arr.length - 1; i >= 0; i--){
+   
+//     newArr.push(arr[i])
+//   }
+//   return newArr
+// }
+
+// console.log(reverse([1,3,4,3,7]))
 
 
 
